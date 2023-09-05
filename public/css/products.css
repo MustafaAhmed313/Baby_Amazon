@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+nav {
+    background-color: rgb(15, 18, 52);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px;
+    padding: 0;
+    width: 40%;
+}
+nav .auth {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 25%;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px;
+    margin: 5px 0;
+    font-weight: bold;
+    background-color: rgb(253, 140, 39);
+}
+
+nav span {
+    margin-left: 20px;
+    color: rgb(253, 140, 39);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px 0;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.container footer {
+    background-color: rgb(15, 18, 52);
+    padding: 11px 34px;
+    color: #fd8c27;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container footer a {
+    text-decoration: none;
+    margin: 0 7px;
+}
+
+.container footer a svg {
+    font-size: 39px;
+    fill: #fd8c27;
+}
+
+.data {
+    margin: auto;
+    padding: 10px 0;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: antiquewhite;
+}
+
+.data .table {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+th , td {
+    padding: 5px;
+    background-color: #2d397a;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+th {
+    color: #FD8C27;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+}
+
+.show , .delete , .edit , .category{
+    text-decoration: none;
+    margin: 0 7px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+}
+
+.show {
+    background-color: #fad80c;
+    border: 5px solid #fad80c;
+}
+
+.edit {
+    background-color: #00b3ff;
+    border: 5px solid #00b3ff;
+}
+
+.delete {
+    background-color: #ec1515;
+    border: 5px solid #ec1515;
+}
+
+.category {
+    background-color: #27e786;
+    border: 5px solid #27e786;
+}
+
+.create {
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.create a {
+    text-decoration: none;
+    margin: 0 7px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+    background-color: rgb(0, 179, 255);
+    border: 5px solid rgb(0, 179, 255);
+}
+
+.auth .logout a {
+    margin: 0 10px;
+}
+
+td form {
+    margin-top: 20px;
+}
