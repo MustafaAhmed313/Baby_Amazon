@@ -110,7 +110,7 @@ class ProductsController extends Controller
     {
         try{
             unlink('images/products/'.$image_name);
-        }catch (\Exception $e){
+        }catch (Exception $e){
             echo $e;
         }
     }
